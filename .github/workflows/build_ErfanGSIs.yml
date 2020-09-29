@@ -61,7 +61,7 @@ jobs:
        - name: Upload GSI to Cowtransfer
          run: |
               curl -sL https://git.io/cowtransfer | sh 
-              ./cowtransfer-uploader -cookie="remember-me=MTMxMjA3OTIxNjFAMTYzLmNvbToxNjAxMjE3MzA3NDMwOmYxYWExN2Y5MzljZTA3MzcxNTYwYzhhOTA0NzUzZTQy;" final/GSI.zip
+              ./cowtransfer-uploader -cookie="remember-me=此处填写自己奶牛账号的cookies;" final/GSI.zip
 
          
             
